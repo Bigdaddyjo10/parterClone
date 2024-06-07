@@ -157,7 +157,7 @@
             <!-- TODO fix visibility -->
             <div class="col-5 bg-img-meeting pt-5 align-content-center ">
               <div>
-              <p class="fs-1 text-success text-center mdi mdi-play bg-black rounded-5"></p>
+              <p class="fs-1 text-success text-center mdi mdi-play  "></p>
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@
       <section>
         <div class="container-fluid bg-img-towers">
           <div class="row px-5 text-center">
-            <i class="mdi text-center mt-2 mdi-format-quote-close fs-1 border border-success border-2 rounded-5 text-success"></i>
+            <i class="mdi text-center mt-2 mdi-format-quote-close fs-1 text-success"></i>
               <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, itaque corporis. Tenetur, veniam facere voluptate laborum voluptatem enim magni ratione.</p>
             <div class="col-12 d-flex flex-column ">
               <img class="img-fluid guy-img align-self-center border border-secondary border-5" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVzaW5lc3MlMjBtYW58ZW58MHx8MHx8fDI%3D" alt="placeholder guy" />
@@ -185,7 +185,7 @@
           <div class="row justify-content-center my-5">
             <div class="col-12 text-center">
               <p class="fs-2 fs-1 fw-bolder">PRICING</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, commodi!</p>
+              <p class=" pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, commodi!</p>
             </div>
 
             <div class="col-3 d-flex justify-content-center">
@@ -199,7 +199,7 @@
             </div>
             <div class="col-3 d-flex justify-content-center">
               <div class="card" style="width: 18rem">
-                <div class="card-body">
+                <div class="card-body border border-1 border-success">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-success">Go somewhere</a>
@@ -222,42 +222,56 @@
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-12">
-              <p>CONTACT</p>
+            <div class="col-12 text-center">
+              <p class="fs-3 fw-bolder">CONTACT</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt esse commodi reiciendis.</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-3">
-              <p><i>😀</i>Location</p>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-              <p><i>😀</i>Email</p>
-              <p>bob123@gmail.com</p>
-              <p><i>😀</i>Call</p>
-              <p>123 2234-3666</p>
+          <div class="row justify-content-center">
+            <div class="col-3 bg-light pt-1">
+              <p class="fw-bolder m-0 fs-5"><i class="mdi mdi-map-marker-outline fs-2"></i> Location:</p>
+              <p class="px-2">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="fw-bolder m-0 fs-5"><i class="mdi mdi-email-outline fs-2"></i> Email:</p>
+              <p class="px-2 m-0">bob123@gmail.com</p>
+              <p class="fw-bolder m-0 fs-5"><i class="mdi mdi-cellphone fs-2"></i> Call:</p>
+              <p class="px-2 py-0">123 2234-3666</p>
             </div>
-            <div class="col-6">
-              <form>
-                <input type="text" name="" id="" placeholder="your name" />
-                <input type="text" name="" id="" placeholder="Email" />
-                <input type="text" name="" id="" placeholder="subject" />
-                <input type="text" name="" id="" placeholder="message" />
-                <button type="submit">Send Message</button>
-              </form>
+            <div class="col-6 bg-light mx-3 ">
+              <div class="row p-3">
+                <div class="col-6 d-flex flex-column p-1">
+                  <input type="text" name="" id="" placeholder="your name" />
+                </div>
+                <div class="col-6 d-flex flex-column p-1">
+                  <input type="text" name="" id="" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="row flex-row">
+                    <div class="col-12 d-flex flex-column p-3 py-3">
+                      <input type="text" name="" id="" placeholder="subject" />
+                    </div>
+              </div>
+              <div class="row flex-row">
+                    <div class="col-12 d-flex flex-column p-3 py-3">
+                      <input class="p-3 " type="text" name="" id="" placeholder="message" />
+                      <button class="btn btn-success m-2" type="submit">Send Message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </section>
 
       <!--ANCHOR Subscribe-->
 
       <section>
         <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <i>knight</i>
-              <p class="fs-2">Knight</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis aperiam est!</p>
+          <div class="row bottom-img rounded mx-auto d-bloc">
+            
+            <div class="col-12 text-center ">
+              
+              <i class="fs-5 mdi mdi-shield text-light"></i>
+              <p class="fs-2 text-light text-center">Knight</p>
+              <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis aperiam est!</p>
             </div>
             <div class="col-12">
               <form class="form-inline">
@@ -267,8 +281,8 @@
                 </div>
                 <div class="form-group mx-sm-3 mb-2">
                   <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your email" />
+                  <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
               </form>
             </div>
             <div class="col-12 text-center">
